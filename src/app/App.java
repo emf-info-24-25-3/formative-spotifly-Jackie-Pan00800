@@ -1,6 +1,7 @@
 package app;
 
-
+import models.Album;
+import models.Chanson;
 public class App {
     public static void main(String[] args) throws Exception {
     
@@ -16,6 +17,9 @@ public class App {
         //      \_/ \___/ |_| |_|_\___|  \___\___/|___/|___| |___\___|___| (_)
         //
 
-
+        Album album1 = new Album();
+        Album album2 = new Album();
+        album1.ajouterChanson();
+        album2.ajouterChanson();
     }
 }
